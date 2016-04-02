@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D795511CAFC75E008270AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D795501CAFC75E008270AF /* main.m */; };
+		21D795541CAFC75E008270AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D795531CAFC75E008270AF /* AppDelegate.m */; };
+		21D795571CAFC75E008270AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D795561CAFC75E008270AF /* ViewController.m */; };
+		21D7955A1CAFC75E008270AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D795581CAFC75E008270AF /* Main.storyboard */; };
+		21D7955C1CAFC75E008270AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D7955B1CAFC75E008270AF /* Assets.xcassets */; };
+		21D7955F1CAFC75E008270AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7955D1CAFC75E008270AF /* LaunchScreen.storyboard */; };
+		21D7956A1CAFC75E008270AF /* HXStatusBarHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D795691CAFC75E008270AF /* HXStatusBarHUDTests.m */; };
+		21D795751CAFC75E008270AF /* HXStatusBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D795741CAFC75E008270AF /* HXStatusBarHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D795661CAFC75E008270AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D795441CAFC75E008270AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D7954B1CAFC75E008270AF;
+			remoteInfo = HXStatusBarHUD;
+		};
+		21D795711CAFC75E008270AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D795441CAFC75E008270AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D7954B1CAFC75E008270AF;
+			remoteInfo = HXStatusBarHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D7954C1CAFC75E008270AF /* HXStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D795501CAFC75E008270AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21D795521CAFC75E008270AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21D795531CAFC75E008270AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21D795551CAFC75E008270AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21D795561CAFC75E008270AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21D795591CAFC75E008270AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21D7955B1CAFC75E008270AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21D7955E1CAFC75E008270AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21D795601CAFC75E008270AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D795651CAFC75E008270AF /* HXStatusBarHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXStatusBarHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D795691CAFC75E008270AF /* HXStatusBarHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXStatusBarHUDTests.m; sourceTree = "<group>"; };
+		21D7956B1CAFC75E008270AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D795701CAFC75E008270AF /* HXStatusBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXStatusBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D795741CAFC75E008270AF /* HXStatusBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXStatusBarHUDUITests.m; sourceTree = "<group>"; };
+		21D795761CAFC75E008270AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D795491CAFC75E008270AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D795621CAFC75E008270AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7956D1CAFC75E008270AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D795431CAFC75E008270AF = {
+			isa = PBXGroup;
+			children = (
+				21D7954E1CAFC75E008270AF /* HXStatusBarHUD */,
+				21D795681CAFC75E008270AF /* HXStatusBarHUDTests */,
+				21D795731CAFC75E008270AF /* HXStatusBarHUDUITests */,
+				21D7954D1CAFC75E008270AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D7954D1CAFC75E008270AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D7954C1CAFC75E008270AF /* HXStatusBarHUD.app */,
+				21D795651CAFC75E008270AF /* HXStatusBarHUDTests.xctest */,
+				21D795701CAFC75E008270AF /* HXStatusBarHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D7954E1CAFC75E008270AF /* HXStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				21D795521CAFC75E008270AF /* AppDelegate.h */,
+				21D795531CAFC75E008270AF /* AppDelegate.m */,
+				21D795551CAFC75E008270AF /* ViewController.h */,
+				21D795561CAFC75E008270AF /* ViewController.m */,
+				21D795581CAFC75E008270AF /* Main.storyboard */,
+				21D7955B1CAFC75E008270AF /* Assets.xcassets */,
+				21D7955D1CAFC75E008270AF /* LaunchScreen.storyboard */,
+				21D795601CAFC75E008270AF /* Info.plist */,
+				21D7954F1CAFC75E008270AF /* Supporting Files */,
+			);
+			path = HXStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		21D7954F1CAFC75E008270AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21D795501CAFC75E008270AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21D795681CAFC75E008270AF /* HXStatusBarHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D795691CAFC75E008270AF /* HXStatusBarHUDTests.m */,
+				21D7956B1CAFC75E008270AF /* Info.plist */,
+			);
+			path = HXStatusBarHUDTests;
+			sourceTree = "<group>";
+		};
+		21D795731CAFC75E008270AF /* HXStatusBarHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21D795741CAFC75E008270AF /* HXStatusBarHUDUITests.m */,
+				21D795761CAFC75E008270AF /* Info.plist */,
+			);
+			path = HXStatusBarHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D7954B1CAFC75E008270AF /* HXStatusBarHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D795791CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUD" */;
+			buildPhases = (
+				21D795481CAFC75E008270AF /* Sources */,
+				21D795491CAFC75E008270AF /* Frameworks */,
+				21D7954A1CAFC75E008270AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXStatusBarHUD;
+			productName = HXStatusBarHUD;
+			productReference = 21D7954C1CAFC75E008270AF /* HXStatusBarHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D795641CAFC75E008270AF /* HXStatusBarHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D7957C1CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUDTests" */;
+			buildPhases = (
+				21D795611CAFC75E008270AF /* Sources */,
+				21D795621CAFC75E008270AF /* Frameworks */,
+				21D795631CAFC75E008270AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D795671CAFC75E008270AF /* PBXTargetDependency */,
+			);
+			name = HXStatusBarHUDTests;
+			productName = HXStatusBarHUDTests;
+			productReference = 21D795651CAFC75E008270AF /* HXStatusBarHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21D7956F1CAFC75E008270AF /* HXStatusBarHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D7957F1CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUDUITests" */;
+			buildPhases = (
+				21D7956C1CAFC75E008270AF /* Sources */,
+				21D7956D1CAFC75E008270AF /* Frameworks */,
+				21D7956E1CAFC75E008270AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D795721CAFC75E008270AF /* PBXTargetDependency */,
+			);
+			name = HXStatusBarHUDUITests;
+			productName = HXStatusBarHUDUITests;
+			productReference = 21D795701CAFC75E008270AF /* HXStatusBarHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D795441CAFC75E008270AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Huang Xing";
+				TargetAttributes = {
+					21D7954B1CAFC75E008270AF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					21D795641CAFC75E008270AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 21D7954B1CAFC75E008270AF;
+					};
+					21D7956F1CAFC75E008270AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 21D7954B1CAFC75E008270AF;
+					};
+				};
+			};
+			buildConfigurationList = 21D795471CAFC75E008270AF /* Build configuration list for PBXProject "HXStatusBarHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D795431CAFC75E008270AF;
+			productRefGroup = 21D7954D1CAFC75E008270AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D7954B1CAFC75E008270AF /* HXStatusBarHUD */,
+				21D795641CAFC75E008270AF /* HXStatusBarHUDTests */,
+				21D7956F1CAFC75E008270AF /* HXStatusBarHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D7954A1CAFC75E008270AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7955F1CAFC75E008270AF /* LaunchScreen.storyboard in Resources */,
+				21D7955C1CAFC75E008270AF /* Assets.xcassets in Resources */,
+				21D7955A1CAFC75E008270AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D795631CAFC75E008270AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7956E1CAFC75E008270AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D795481CAFC75E008270AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D795571CAFC75E008270AF /* ViewController.m in Sources */,
+				21D795541CAFC75E008270AF /* AppDelegate.m in Sources */,
+				21D795511CAFC75E008270AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D795611CAFC75E008270AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7956A1CAFC75E008270AF /* HXStatusBarHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7956C1CAFC75E008270AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D795751CAFC75E008270AF /* HXStatusBarHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D795671CAFC75E008270AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D7954B1CAFC75E008270AF /* HXStatusBarHUD */;
+			targetProxy = 21D795661CAFC75E008270AF /* PBXContainerItemProxy */;
+		};
+		21D795721CAFC75E008270AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D7954B1CAFC75E008270AF /* HXStatusBarHUD */;
+			targetProxy = 21D795711CAFC75E008270AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D795581CAFC75E008270AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D795591CAFC75E008270AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21D7955D1CAFC75E008270AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D7955E1CAFC75E008270AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D795771CAFC75E008270AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21D795781CAFC75E008270AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D7957A1CAFC75E008270AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21D7957B1CAFC75E008270AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21D7957D1CAFC75E008270AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXStatusBarHUD.app/HXStatusBarHUD";
+			};
+			name = Debug;
+		};
+		21D7957E1CAFC75E008270AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXStatusBarHUD.app/HXStatusBarHUD";
+			};
+			name = Release;
+		};
+		21D795801CAFC75E008270AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HXStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HXStatusBarHUD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21D795811CAFC75E008270AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HXStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.HXStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HXStatusBarHUD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D795471CAFC75E008270AF /* Build configuration list for PBXProject "HXStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D795771CAFC75E008270AF /* Debug */,
+				21D795781CAFC75E008270AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D795791CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D7957A1CAFC75E008270AF /* Debug */,
+				21D7957B1CAFC75E008270AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21D7957C1CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D7957D1CAFC75E008270AF /* Debug */,
+				21D7957E1CAFC75E008270AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21D7957F1CAFC75E008270AF /* Build configuration list for PBXNativeTarget "HXStatusBarHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D795801CAFC75E008270AF /* Debug */,
+				21D795811CAFC75E008270AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D795441CAFC75E008270AF /* Project object */;
+}
